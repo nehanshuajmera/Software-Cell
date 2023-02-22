@@ -14,7 +14,8 @@ function App() {
     <Navbar/>
     <Aboutus/>
     <Contactus/> */}
-    <Ourteam/>
+    {/* <Ourteam/> */}
+    <Contactus/>
     {/* <Home/> */}
    </div>
   );
