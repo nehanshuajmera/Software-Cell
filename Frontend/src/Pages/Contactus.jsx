@@ -1,25 +1,9 @@
 import React from 'react'
-import './contactus.css'
+import './Contactus.css'
 const Contactus = () => {
   return (
     <div>
-      <div className="formBox">
-            {/* <p>Form</p>
-            <form action="" id="form">
-                <div className="name">
-                    <label for="Name">Name</label>
-                    <input type="text" id="Name" name="Name"/>
-                </div>
-                <div className="phoneNo">
-                    <label for="Phoneno">Contact</label>
-                    <input type="tel" id="Phoneno" name="Phoneno" pattern="[0-9]{10}" required/>
-                </div>
-                <div className="email">
-                    <label for="Email">Email</label>
-                    <input type="email" name="Email" id="Email" placeholder="abc12@gmail.com" required />
-                </div>
-                <input type="submit" value="submit"/>
-            // </form> --> */}
+      {/* <div className="formBox">
             <form className="box" action="index.html" method="post">
                 <h1>Form</h1> 
                 <input type="text" name="" placeholder="Username" required/>
@@ -52,7 +36,37 @@ const Contactus = () => {
                               <div className="line"></div>
                           </div>
               
+        </div> */}
+        <div className="form2">
+          <div className="box">
+            <div className="formBox2">
+              <h2>Contact Us</h2>
+              <div className="inputBox">
+                <input type="text" id="Name" name="Name" required="required" />
+                <span>Name</span>
+                <i />
+              </div>
+              <div className="inputBox">
+                <input
+                  type="tel"
+                  id="Phoneno"
+                  name="Phoneno"
+                  pattern="[0-9]{10}"
+                  required="required"
+                />
+                <span>Phone No.</span>
+                <i />
+              </div>
+              <div className="inputBox">
+                <input type="email" name="Email" id="Email" required="required" />
+                <span>Email</span>
+                <i />
+              </div>
+              <input type="submit" defaultValue="Submit" />
+            </div>
+          </div>
         </div>
+
     </div>
   )
 }
