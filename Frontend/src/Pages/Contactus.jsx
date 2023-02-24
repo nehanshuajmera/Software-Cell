@@ -2,7 +2,7 @@ import React from 'react'
 import './Contactus.css'
 const Contactus = () => {
   return (
-    <div>
+    <div className='main'>
       {/* <div className="formBox">
             <form className="box" action="index.html" method="post">
                 <h1>Form</h1> 
