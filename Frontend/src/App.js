@@ -12,8 +12,8 @@ function App() {
    <div>
     {/* <Footer/>
     <Navbar/>
-    <Aboutus/>
-    <Contactus/> */}
+  <Contactus/> */}
+  {/* <Aboutus/> */}
     {/* <Ourteam/> */}
     <Contactus/>
     {/* <Home/> */}
