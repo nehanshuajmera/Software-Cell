@@ -3,6 +3,7 @@ import './contactus.css'
 const Contactus = () => {
   return (
     <div className='contactBody'>
+    <div className='main'>
       {/* <div className="formBox">
             <form className="box" action="index.html" method="post">
                 <h1>Form</h1> 
@@ -87,6 +88,7 @@ const Contactus = () => {
           </div>
         </div>
 
+    </div>
     </div>
   )
 }

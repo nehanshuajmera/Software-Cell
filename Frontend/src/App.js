@@ -10,12 +10,15 @@ function App() {
   return (
     
    <div>
-    {/* <Footer/>
     <Navbar/>
-  <Contactus/> */}
+  <Contactus/> 
   {/* <Aboutus/> */}
+
+    {/* <Footer/>
+    <Aboutus/>
+    <Contactus/> */}
     {/* <Ourteam/> */}
-    <Contactus/>
+    {/* <Contactus/> */}
     {/* <Home/> */}
    </div>
   );
