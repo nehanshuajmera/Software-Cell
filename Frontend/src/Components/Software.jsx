@@ -2,7 +2,8 @@ import React from 'react'
 import './software_anim.css'
 
 
-const Home = () => {
+const Software = () => {
+
   return (
     <div>
 
@@ -210,4 +211,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Software
