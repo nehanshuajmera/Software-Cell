@@ -6,13 +6,14 @@ import Contactus from './Pages/Contactus';
 import Home from './Pages/Home';
 import Ourteam from './Pages/Ourteam';
 
+
 function App() {
   return (
     
    <div>
     <Navbar/>
-  <Contactus/> 
-  {/* <Aboutus/> */}
+  {/* <Contactus/>  */}
+  <Aboutus/>
 
     {/* <Footer/>
     <Aboutus/>
