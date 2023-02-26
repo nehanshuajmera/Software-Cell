@@ -1,29 +1,40 @@
 import React from 'react'
 import './Navbar.css'
+import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <div>
       <header>
-        <navbar id="navbar">
-          <div className="cell-logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/RPC-JP_Logo.png" alt="Loading Error" />
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <Link class="nav-link active" aria-current="page" to="/">Home</Link>
+                </li>
+                <li class="nav-item">
+                  <Link class="nav-link active" aria-current="page" to="/events">Events</Link>
+                </li>
+                <li class="nav-item">
+                  <Link class="nav-link active" aria-current="page" to="/projects">Project</Link>
+                </li>
+                <li class="nav-item">
+                  <Link class="nav-link active" aria-current="page" to="/community">Our Community</Link>
+                </li>
+                <li class="nav-item">
+                  <Link class="nav-link active" aria-current="page" to="/about">About</Link>
+                </li>
+                <li class="nav-item">
+                  <Link class="nav-link active" aria-current="page" to="/contact">Contact Us</Link>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div className="left-elements">
-            <ul>
-              <li className="left-list-items"><a href="/">Home</a></li>
-              <li className="left-list-items"><a href="/events">Events</a></li>
-              <li className="left-list-items"><a href="/projects">Projects</a></li>
-              <li className="left-list-items"><a href="/our community">Our Community</a></li>
-              <li className="left-list-items"><a href="/about us">About Us</a></li>
-              <li className="left-list-items"><a href="/contact us">Contact Us</a></li>
-            </ul>
-          </div>
-          <div className="right-elements">
-            <ul>
-              {/* <li className="right-list-items"><a href="#">Sign In</a></li> */}
-            </ul>
-          </div>
-        </navbar>
+        </nav>
       </header>
     </div>
   )
