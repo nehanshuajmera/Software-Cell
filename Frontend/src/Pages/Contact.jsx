@@ -1,6 +1,6 @@
 import React from 'react'
-import './contactus.css'
-const Contactus = () => {
+import './Contact.css'
+const Contact = () => {
   return (
     <div className='contactBody'>
     <div className='main'>
@@ -93,4 +93,4 @@ const Contactus = () => {
   )
 }
 
-export default Contactus
+export default Contact
