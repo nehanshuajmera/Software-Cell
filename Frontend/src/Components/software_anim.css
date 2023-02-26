@@ -16,7 +16,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   background: #fff;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
   font-size: 100%;
   text-align: center;
 }
@@ -37,7 +37,7 @@ body {
   top: 20;
   height: 80h;
   width: 0;
-  animation: background-animation 4s ease-in-out 5s 1 normal forwards;
+  animation: background-animation 4s ease-in  1 normal forwards;
 }
 .background0 {
   left: 0%;
