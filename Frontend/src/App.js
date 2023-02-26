@@ -1,20 +1,21 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import { Route, Routes } from "react-router-dom";
+
 
 import Preloader from './Components/Preloader';
 import Software from './Components/Software';
+import Layout from './Components/Layout';
 
-import Navbar from './Components/Navbar';
-import Aboutus from './Pages/Aboutus';
+// import Aboutus from './Pages/Aboutus';
 // import Contactus from './Pages/Contactus';
-import Home from './Pages/Home';
+// import Home from './Pages/Home';
 // import Ourteam from './Pages/Ourteam';
 // import Footer from './Components/Footer';
+
 function App() {
   const [loading, setloading] = useState(false)
   useEffect(() => {
-    setTimeout(() => {setloading(true)}, 8000)
+    setTimeout(() => {setloading(true)}, 7000)
   }, [])
   
   return (
@@ -27,18 +28,14 @@ function App() {
  </>
  :
   <>
-  <Navbar/> 
+  <Layout/>  
   </>
   }
 
-   <Routes>
-        <Route exact path='/' element={<Home/> }/>
-         <Route  path='/about' element={<Aboutus/> }/> 
-
-      </Routes> 
+  
 
 
- {/* <Home/> */}
+
  
 
     {/* <Navbar/>
